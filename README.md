@@ -18,7 +18,23 @@ Cada entrega é única. Nenhum site parece com o outro. Nada tem cara de IA.
 
 ---
 
+## Antes de instalar
+
+Você vai precisar de duas coisas:
+
+**1. Claude Code instalado**
+Acesse [claude.ai/code](https://claude.ai/code) e siga as instruções de instalação.
+É gratuito para começar.
+
+**2. Git instalado**
+Acesse [git-scm.com](https://git-scm.com/downloads) e baixe a versão para o seu sistema.
+Se estiver no Windows, instale o Git Bash que vem junto.
+
+---
+
 ## Instalação
+
+Abra o terminal (Git Bash no Windows) e rode:
 
 ```bash
 git clone https://github.com/vinigrowth/VazyO.git
@@ -26,9 +42,23 @@ cd VazyO
 code .
 ```
 
-No VS Code, abra o terminal integrado → digite `claude` → rode `/instalar`.
+Isso vai baixar o VazyO e abrir no VS Code.
 
-O sistema vai te entrevistar, montar a memória do seu negócio e deixar tudo pronto.
+Dentro do VS Code, abra o terminal integrado e digite:
+
+```bash
+claude
+```
+
+Quando o Claude Code abrir, rode:
+
+```
+/instalar
+```
+
+O sistema vai te fazer algumas perguntas sobre o seu negócio, montar a memória e deixar tudo pronto pra usar.
+
+> Tutorial completo com vídeo passo a passo chegando em breve.
 
 ---
 
@@ -53,11 +83,11 @@ O sistema vai te entrevistar, montar a memória do seu negócio e deixar tudo pr
 ## Como funciona
 
 ```
-_memoria/     →  contexto do negócio (lido a cada sessão)
-identidade/   →  visual da marca (aplicado em tudo)
-projetos/     →  um subpasta por cliente
-saidas/       →  tudo que o sistema gera
-.claude/skills/ →  os comandos
+_memoria/         →  contexto do negócio (lido a cada sessão)
+identidade/       →  visual da marca (aplicado em tudo)
+projetos/         →  uma pasta por cliente
+saidas/           →  tudo que o sistema gera
+.claude/skills/   →  os comandos
 ```
 
 ---
@@ -71,5 +101,7 @@ O VazyO não substitui quem cria — amplifica. Uma pessoa com o sistema certo c
 ---
 
 <div align="center">
-Feito por <a href="https://github.com/vinigrowth">vinigrowth</a>
+
+Criado por [@vinigrowth](https://instagram.com/vinigrowth)
+
 </div>
