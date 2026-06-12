@@ -20,21 +20,25 @@ Cada entrega é única. Nenhum site parece com o outro. Nada tem cara de IA.
 
 ## Antes de instalar
 
-Você vai precisar de duas coisas:
+Você precisa ter o **Claude Code** instalado e aberto no terminal.
 
-**1. Claude Code instalado**
-Acesse [claude.ai/code](https://claude.ai/code) e siga as instruções de instalação.
-É gratuito para começar.
-
-**2. Git instalado**
-Acesse [git-scm.com](https://git-scm.com/downloads) e baixe a versão para o seu sistema.
-Se estiver no Windows, instale o Git Bash que vem junto.
+Ainda não tem? Acesse [claude.ai/code](https://claude.ai/code) e siga as instruções.
 
 ---
 
 ## Instalação
 
-Abra o terminal (Git Bash no Windows) e rode:
+### Pelo Claude Code (mais rápido)
+
+Abre o Claude Code em qualquer pasta e cola:
+
+```
+Clona o https://github.com/vinigrowth/VazyO.git na pasta atual, entra nela e roda o /instalar.
+```
+
+Ele clona, entra na pasta e dispara o setup. Você só responde.
+
+### Pelo terminal (mais previsível)
 
 ```bash
 git clone https://github.com/vinigrowth/VazyO.git
@@ -42,23 +46,11 @@ cd VazyO
 code .
 ```
 
-Isso vai baixar o VazyO e abrir no VS Code.
+No VS Code que abrir: terminal integrado → `claude` → `/instalar`.
 
-Dentro do VS Code, abra o terminal integrado e digite:
+---
 
-```bash
-claude
-```
-
-Quando o Claude Code abrir, rode:
-
-```
-/instalar
-```
-
-O sistema vai te fazer algumas perguntas sobre o seu negócio, montar a memória e deixar tudo pronto pra usar.
-
-> Tutorial completo com vídeo passo a passo chegando em breve.
+Quando o `/instalar` terminar, renomeia a pasta `VazyO/` pro nome do teu negócio. A pasta não fica como "VazyO" — ela é o teu negócio agora.
 
 ---
 
