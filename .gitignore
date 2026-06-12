@@ -1,0 +1,11 @@
+# Token sensível — nunca subir pro GitHub
+_config/netlify.token
+
+# Sistema
+.DS_Store
+Thumbs.db
+node_modules/
+
+# Temporários
+*.tmp
+*.log
